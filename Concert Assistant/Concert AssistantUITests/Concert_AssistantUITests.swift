@@ -2,8 +2,8 @@
 //  Concert_AssistantUITests.swift
 //  Concert AssistantUITests
 //
-//  Created by MOBOS on 12.03.2018.
-//  Copyright © 2018 MOBOS. All rights reserved.
+//  Created by MOBOS on 17.03.2018.
+//  Copyright © 2018 Frites. All rights reserved.
 //
 
 import XCTest
