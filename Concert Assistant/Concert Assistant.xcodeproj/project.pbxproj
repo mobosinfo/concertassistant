@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6800786C2056E24700E338AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800786B2056E24700E338AC /* AppDelegate.swift */; };
-		6800786E2056E24700E338AC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800786D2056E24700E338AC /* FirstViewController.swift */; };
-		680078702056E24700E338AC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800786F2056E24700E338AC /* SecondViewController.swift */; };
-		680078732056E24700E338AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680078712056E24700E338AC /* Main.storyboard */; };
-		680078752056E24700E338AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680078742056E24700E338AC /* Assets.xcassets */; };
-		680078782056E24700E338AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680078762056E24700E338AC /* LaunchScreen.storyboard */; };
-		680078832056E24700E338AC /* Concert_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680078822056E24700E338AC /* Concert_AssistantTests.swift */; };
-		6800788E2056E24700E338AC /* Concert_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6800788D2056E24700E338AC /* Concert_AssistantUITests.swift */; };
+		685AD96C205DB8E20002DB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD96B205DB8E20002DB54 /* AppDelegate.swift */; };
+		685AD96E205DB8E20002DB54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD96D205DB8E20002DB54 /* ViewController.swift */; };
+		685AD971205DB8E20002DB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685AD96F205DB8E20002DB54 /* Main.storyboard */; };
+		685AD973205DB8E20002DB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685AD972205DB8E20002DB54 /* Assets.xcassets */; };
+		685AD976205DB8E20002DB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685AD974205DB8E20002DB54 /* LaunchScreen.storyboard */; };
+		685AD981205DB8E20002DB54 /* Concert_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD980205DB8E20002DB54 /* Concert_AssistantTests.swift */; };
+		685AD98C205DB8E20002DB54 /* Concert_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD98B205DB8E20002DB54 /* Concert_AssistantUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6800787F2056E24700E338AC /* PBXContainerItemProxy */ = {
+		685AD97D205DB8E20002DB54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 680078602056E24700E338AC /* Project object */;
+			containerPortal = 685AD960205DB8E20002DB54 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 680078672056E24700E338AC;
+			remoteGlobalIDString = 685AD967205DB8E20002DB54;
 			remoteInfo = "Concert Assistant";
 		};
-		6800788A2056E24700E338AC /* PBXContainerItemProxy */ = {
+		685AD988205DB8E20002DB54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 680078602056E24700E338AC /* Project object */;
+			containerPortal = 685AD960205DB8E20002DB54 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 680078672056E24700E338AC;
+			remoteGlobalIDString = 685AD967205DB8E20002DB54;
 			remoteInfo = "Concert Assistant";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		680078682056E24700E338AC /* Concert Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concert Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6800786B2056E24700E338AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6800786D2056E24700E338AC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		6800786F2056E24700E338AC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		680078722056E24700E338AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		680078742056E24700E338AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		680078772056E24700E338AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		680078792056E24700E338AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6800787E2056E24700E338AC /* Concert AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concert AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		680078822056E24700E338AC /* Concert_AssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert_AssistantTests.swift; sourceTree = "<group>"; };
-		680078842056E24700E338AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		680078892056E24700E338AC /* Concert AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concert AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6800788D2056E24700E338AC /* Concert_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert_AssistantUITests.swift; sourceTree = "<group>"; };
-		6800788F2056E24700E338AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685AD968205DB8E20002DB54 /* Concert Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concert Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685AD96B205DB8E20002DB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		685AD96D205DB8E20002DB54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		685AD970205DB8E20002DB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685AD972205DB8E20002DB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685AD975205DB8E20002DB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685AD977205DB8E20002DB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685AD97C205DB8E20002DB54 /* Concert AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concert AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685AD980205DB8E20002DB54 /* Concert_AssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert_AssistantTests.swift; sourceTree = "<group>"; };
+		685AD982205DB8E20002DB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685AD987205DB8E20002DB54 /* Concert AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concert AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685AD98B205DB8E20002DB54 /* Concert_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert_AssistantUITests.swift; sourceTree = "<group>"; };
+		685AD98D205DB8E20002DB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		680078652056E24700E338AC /* Frameworks */ = {
+		685AD965205DB8E20002DB54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6800787B2056E24700E338AC /* Frameworks */ = {
+		685AD979205DB8E20002DB54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		680078862056E24700E338AC /* Frameworks */ = {
+		685AD984205DB8E20002DB54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6800785F2056E24700E338AC = {
+		685AD95F205DB8E20002DB54 = {
 			isa = PBXGroup;
 			children = (
-				6800786A2056E24700E338AC /* Concert Assistant */,
-				680078812056E24700E338AC /* Concert AssistantTests */,
-				6800788C2056E24700E338AC /* Concert AssistantUITests */,
-				680078692056E24700E338AC /* Products */,
+				685AD96A205DB8E20002DB54 /* Concert Assistant */,
+				685AD97F205DB8E20002DB54 /* Concert AssistantTests */,
+				685AD98A205DB8E20002DB54 /* Concert AssistantUITests */,
+				685AD969205DB8E20002DB54 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		680078692056E24700E338AC /* Products */ = {
+		685AD969205DB8E20002DB54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				680078682056E24700E338AC /* Concert Assistant.app */,
-				6800787E2056E24700E338AC /* Concert AssistantTests.xctest */,
-				680078892056E24700E338AC /* Concert AssistantUITests.xctest */,
+				685AD968205DB8E20002DB54 /* Concert Assistant.app */,
+				685AD97C205DB8E20002DB54 /* Concert AssistantTests.xctest */,
+				685AD987205DB8E20002DB54 /* Concert AssistantUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6800786A2056E24700E338AC /* Concert Assistant */ = {
+		685AD96A205DB8E20002DB54 /* Concert Assistant */ = {
 			isa = PBXGroup;
 			children = (
-				6800786B2056E24700E338AC /* AppDelegate.swift */,
-				6800786D2056E24700E338AC /* FirstViewController.swift */,
-				6800786F2056E24700E338AC /* SecondViewController.swift */,
-				680078712056E24700E338AC /* Main.storyboard */,
-				680078742056E24700E338AC /* Assets.xcassets */,
-				680078762056E24700E338AC /* LaunchScreen.storyboard */,
-				680078792056E24700E338AC /* Info.plist */,
+				685AD96B205DB8E20002DB54 /* AppDelegate.swift */,
+				685AD96D205DB8E20002DB54 /* ViewController.swift */,
+				685AD96F205DB8E20002DB54 /* Main.storyboard */,
+				685AD972205DB8E20002DB54 /* Assets.xcassets */,
+				685AD974205DB8E20002DB54 /* LaunchScreen.storyboard */,
+				685AD977205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert Assistant";
 			sourceTree = "<group>";
 		};
-		680078812056E24700E338AC /* Concert AssistantTests */ = {
+		685AD97F205DB8E20002DB54 /* Concert AssistantTests */ = {
 			isa = PBXGroup;
 			children = (
-				680078822056E24700E338AC /* Concert_AssistantTests.swift */,
-				680078842056E24700E338AC /* Info.plist */,
+				685AD980205DB8E20002DB54 /* Concert_AssistantTests.swift */,
+				685AD982205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert AssistantTests";
 			sourceTree = "<group>";
 		};
-		6800788C2056E24700E338AC /* Concert AssistantUITests */ = {
+		685AD98A205DB8E20002DB54 /* Concert AssistantUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6800788D2056E24700E338AC /* Concert_AssistantUITests.swift */,
-				6800788F2056E24700E338AC /* Info.plist */,
+				685AD98B205DB8E20002DB54 /* Concert_AssistantUITests.swift */,
+				685AD98D205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert AssistantUITests";
 			sourceTree = "<group>";
@@ -131,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		680078672056E24700E338AC /* Concert Assistant */ = {
+		685AD967205DB8E20002DB54 /* Concert Assistant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 680078922056E24700E338AC /* Build configuration list for PBXNativeTarget "Concert Assistant" */;
+			buildConfigurationList = 685AD990205DB8E20002DB54 /* Build configuration list for PBXNativeTarget "Concert Assistant" */;
 			buildPhases = (
-				680078642056E24700E338AC /* Sources */,
-				680078652056E24700E338AC /* Frameworks */,
-				680078662056E24700E338AC /* Resources */,
+				685AD964205DB8E20002DB54 /* Sources */,
+				685AD965205DB8E20002DB54 /* Frameworks */,
+				685AD966205DB8E20002DB54 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,72 +142,72 @@
 			);
 			name = "Concert Assistant";
 			productName = "Concert Assistant";
-			productReference = 680078682056E24700E338AC /* Concert Assistant.app */;
+			productReference = 685AD968205DB8E20002DB54 /* Concert Assistant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6800787D2056E24700E338AC /* Concert AssistantTests */ = {
+		685AD97B205DB8E20002DB54 /* Concert AssistantTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 680078952056E24700E338AC /* Build configuration list for PBXNativeTarget "Concert AssistantTests" */;
+			buildConfigurationList = 685AD993205DB8E20002DB54 /* Build configuration list for PBXNativeTarget "Concert AssistantTests" */;
 			buildPhases = (
-				6800787A2056E24700E338AC /* Sources */,
-				6800787B2056E24700E338AC /* Frameworks */,
-				6800787C2056E24700E338AC /* Resources */,
+				685AD978205DB8E20002DB54 /* Sources */,
+				685AD979205DB8E20002DB54 /* Frameworks */,
+				685AD97A205DB8E20002DB54 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				680078802056E24700E338AC /* PBXTargetDependency */,
+				685AD97E205DB8E20002DB54 /* PBXTargetDependency */,
 			);
 			name = "Concert AssistantTests";
 			productName = "Concert AssistantTests";
-			productReference = 6800787E2056E24700E338AC /* Concert AssistantTests.xctest */;
+			productReference = 685AD97C205DB8E20002DB54 /* Concert AssistantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		680078882056E24700E338AC /* Concert AssistantUITests */ = {
+		685AD986205DB8E20002DB54 /* Concert AssistantUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 680078982056E24700E338AC /* Build configuration list for PBXNativeTarget "Concert AssistantUITests" */;
+			buildConfigurationList = 685AD996205DB8E20002DB54 /* Build configuration list for PBXNativeTarget "Concert AssistantUITests" */;
 			buildPhases = (
-				680078852056E24700E338AC /* Sources */,
-				680078862056E24700E338AC /* Frameworks */,
-				680078872056E24700E338AC /* Resources */,
+				685AD983205DB8E20002DB54 /* Sources */,
+				685AD984205DB8E20002DB54 /* Frameworks */,
+				685AD985205DB8E20002DB54 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6800788B2056E24700E338AC /* PBXTargetDependency */,
+				685AD989205DB8E20002DB54 /* PBXTargetDependency */,
 			);
 			name = "Concert AssistantUITests";
 			productName = "Concert AssistantUITests";
-			productReference = 680078892056E24700E338AC /* Concert AssistantUITests.xctest */;
+			productReference = 685AD987205DB8E20002DB54 /* Concert AssistantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		680078602056E24700E338AC /* Project object */ = {
+		685AD960205DB8E20002DB54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = MOBOS;
+				ORGANIZATIONNAME = Frites;
 				TargetAttributes = {
-					680078672056E24700E338AC = {
+					685AD967205DB8E20002DB54 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					6800787D2056E24700E338AC = {
+					685AD97B205DB8E20002DB54 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 680078672056E24700E338AC;
+						TestTargetID = 685AD967205DB8E20002DB54;
 					};
-					680078882056E24700E338AC = {
+					685AD986205DB8E20002DB54 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 680078672056E24700E338AC;
+						TestTargetID = 685AD967205DB8E20002DB54;
 					};
 				};
 			};
-			buildConfigurationList = 680078632056E24700E338AC /* Build configuration list for PBXProject "Concert Assistant" */;
+			buildConfigurationList = 685AD963205DB8E20002DB54 /* Build configuration list for PBXProject "Concert Assistant" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 6800785F2056E24700E338AC;
-			productRefGroup = 680078692056E24700E338AC /* Products */;
+			mainGroup = 685AD95F205DB8E20002DB54;
+			productRefGroup = 685AD969205DB8E20002DB54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				680078672056E24700E338AC /* Concert Assistant */,
-				6800787D2056E24700E338AC /* Concert AssistantTests */,
-				680078882056E24700E338AC /* Concert AssistantUITests */,
+				685AD967205DB8E20002DB54 /* Concert Assistant */,
+				685AD97B205DB8E20002DB54 /* Concert AssistantTests */,
+				685AD986205DB8E20002DB54 /* Concert AssistantUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		680078662056E24700E338AC /* Resources */ = {
+		685AD966205DB8E20002DB54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680078782056E24700E338AC /* LaunchScreen.storyboard in Resources */,
-				680078752056E24700E338AC /* Assets.xcassets in Resources */,
-				680078732056E24700E338AC /* Main.storyboard in Resources */,
+				685AD976205DB8E20002DB54 /* LaunchScreen.storyboard in Resources */,
+				685AD973205DB8E20002DB54 /* Assets.xcassets in Resources */,
+				685AD971205DB8E20002DB54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6800787C2056E24700E338AC /* Resources */ = {
+		685AD97A205DB8E20002DB54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		680078872056E24700E338AC /* Resources */ = {
+		685AD985205DB8E20002DB54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,60 +255,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		680078642056E24700E338AC /* Sources */ = {
+		685AD964205DB8E20002DB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680078702056E24700E338AC /* SecondViewController.swift in Sources */,
-				6800786C2056E24700E338AC /* AppDelegate.swift in Sources */,
-				6800786E2056E24700E338AC /* FirstViewController.swift in Sources */,
+				685AD96E205DB8E20002DB54 /* ViewController.swift in Sources */,
+				685AD96C205DB8E20002DB54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6800787A2056E24700E338AC /* Sources */ = {
+		685AD978205DB8E20002DB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680078832056E24700E338AC /* Concert_AssistantTests.swift in Sources */,
+				685AD981205DB8E20002DB54 /* Concert_AssistantTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		680078852056E24700E338AC /* Sources */ = {
+		685AD983205DB8E20002DB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6800788E2056E24700E338AC /* Concert_AssistantUITests.swift in Sources */,
+				685AD98C205DB8E20002DB54 /* Concert_AssistantUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		680078802056E24700E338AC /* PBXTargetDependency */ = {
+		685AD97E205DB8E20002DB54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 680078672056E24700E338AC /* Concert Assistant */;
-			targetProxy = 6800787F2056E24700E338AC /* PBXContainerItemProxy */;
+			target = 685AD967205DB8E20002DB54 /* Concert Assistant */;
+			targetProxy = 685AD97D205DB8E20002DB54 /* PBXContainerItemProxy */;
 		};
-		6800788B2056E24700E338AC /* PBXTargetDependency */ = {
+		685AD989205DB8E20002DB54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 680078672056E24700E338AC /* Concert Assistant */;
-			targetProxy = 6800788A2056E24700E338AC /* PBXContainerItemProxy */;
+			target = 685AD967205DB8E20002DB54 /* Concert Assistant */;
+			targetProxy = 685AD988205DB8E20002DB54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		680078712056E24700E338AC /* Main.storyboard */ = {
+		685AD96F205DB8E20002DB54 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				680078722056E24700E338AC /* Base */,
+				685AD970205DB8E20002DB54 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		680078762056E24700E338AC /* LaunchScreen.storyboard */ = {
+		685AD974205DB8E20002DB54 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				680078772056E24700E338AC /* Base */,
+				685AD975205DB8E20002DB54 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		680078902056E24700E338AC /* Debug */ = {
+		685AD98E205DB8E20002DB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		680078912056E24700E338AC /* Release */ = {
+		685AD98F205DB8E20002DB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,7 +422,7 @@
 			};
 			name = Release;
 		};
-		680078932056E24700E338AC /* Debug */ = {
+		685AD991205DB8E20002DB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -434,14 +430,14 @@
 				DEVELOPMENT_TEAM = 8YTMP6K87F;
 				INFOPLIST_FILE = "Concert Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobos.Concert-Assistant";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frites.Concert-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		680078942056E24700E338AC /* Release */ = {
+		685AD992205DB8E20002DB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -449,14 +445,14 @@
 				DEVELOPMENT_TEAM = 8YTMP6K87F;
 				INFOPLIST_FILE = "Concert Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobos.Concert-Assistant";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frites.Concert-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		680078962056E24700E338AC /* Debug */ = {
+		685AD994205DB8E20002DB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -465,7 +461,7 @@
 				DEVELOPMENT_TEAM = 8YTMP6K87F;
 				INFOPLIST_FILE = "Concert AssistantTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobos.Concert-AssistantTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frites.Concert-AssistantTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +469,7 @@
 			};
 			name = Debug;
 		};
-		680078972056E24700E338AC /* Release */ = {
+		685AD995205DB8E20002DB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -482,7 +478,7 @@
 				DEVELOPMENT_TEAM = 8YTMP6K87F;
 				INFOPLIST_FILE = "Concert AssistantTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobos.Concert-AssistantTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frites.Concert-AssistantTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -490,7 +486,7 @@
 			};
 			name = Release;
 		};
-		680078992056E24700E338AC /* Debug */ = {
+		685AD997205DB8E20002DB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,7 +494,7 @@
 				DEVELOPMENT_TEAM = 8YTMP6K87F;
 				INFOPLIST_FILE = "Concert AssistantUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobos.Concert-AssistantUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frites.Concert-AssistantUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,7 +502,7 @@
 			};
 			name = Debug;
 		};
-		6800789A2056E24700E338AC /* Release */ = {
+		685AD998205DB8E20002DB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,7 +510,7 @@
 				DEVELOPMENT_TEAM = 8YTMP6K87F;
 				INFOPLIST_FILE = "Concert AssistantUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobos.Concert-AssistantUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frites.Concert-AssistantUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,43 +521,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		680078632056E24700E338AC /* Build configuration list for PBXProject "Concert Assistant" */ = {
+		685AD963205DB8E20002DB54 /* Build configuration list for PBXProject "Concert Assistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				680078902056E24700E338AC /* Debug */,
-				680078912056E24700E338AC /* Release */,
+				685AD98E205DB8E20002DB54 /* Debug */,
+				685AD98F205DB8E20002DB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680078922056E24700E338AC /* Build configuration list for PBXNativeTarget "Concert Assistant" */ = {
+		685AD990205DB8E20002DB54 /* Build configuration list for PBXNativeTarget "Concert Assistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				680078932056E24700E338AC /* Debug */,
-				680078942056E24700E338AC /* Release */,
+				685AD991205DB8E20002DB54 /* Debug */,
+				685AD992205DB8E20002DB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680078952056E24700E338AC /* Build configuration list for PBXNativeTarget "Concert AssistantTests" */ = {
+		685AD993205DB8E20002DB54 /* Build configuration list for PBXNativeTarget "Concert AssistantTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				680078962056E24700E338AC /* Debug */,
-				680078972056E24700E338AC /* Release */,
+				685AD994205DB8E20002DB54 /* Debug */,
+				685AD995205DB8E20002DB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680078982056E24700E338AC /* Build configuration list for PBXNativeTarget "Concert AssistantUITests" */ = {
+		685AD996205DB8E20002DB54 /* Build configuration list for PBXNativeTarget "Concert AssistantUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				680078992056E24700E338AC /* Debug */,
-				6800789A2056E24700E338AC /* Release */,
+				685AD997205DB8E20002DB54 /* Debug */,
+				685AD998205DB8E20002DB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 680078602056E24700E338AC /* Project object */;
+	rootObject = 685AD960205DB8E20002DB54 /* Project object */;
 }
