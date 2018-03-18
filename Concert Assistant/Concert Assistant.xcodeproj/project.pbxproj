@@ -136,7 +136,6 @@
 				68B87340205E5127007A860E /* Application */,
 				685AD96B205DB8E20002DB54 /* AppDelegate.swift */,
 				685AD96D205DB8E20002DB54 /* ViewController.swift */,
-				685AD972205DB8E20002DB54 /* Assets.xcassets */,
 				685AD977205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert Assistant";
@@ -257,6 +256,7 @@
 		68B87341205E512D007A860E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				685AD972205DB8E20002DB54 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
