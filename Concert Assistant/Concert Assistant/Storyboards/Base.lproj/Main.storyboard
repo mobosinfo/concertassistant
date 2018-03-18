@@ -10,13 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Genresscene-->
         <scene sceneID="yCT-Wz-U5Z">
             <objects>
-                <viewController id="YtC-5n-nqd" sceneMemberID="viewController">
+                <viewController id="YtC-5n-nqd" userLabel="Genresscene" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QYV-6g-Iz3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hfz-7r-oML">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="YiJ-cG-SUa"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YEI-Wz-neu"/>
                     </view>
@@ -26,13 +35,22 @@
             </objects>
             <point key="canvasLocation" x="1785" y="446"/>
         </scene>
-        <!--Item 1-->
+        <!--Artistsscene-->
         <scene sceneID="0RJ-99-EaN">
             <objects>
-                <viewController id="Yic-R8-hqt" sceneMemberID="viewController">
+                <viewController id="Yic-R8-hqt" userLabel="Artistsscene" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WdR-G4-S9s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gka-Ub-w7u">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="bKQ-ee-SlG"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FMR-IT-x7K"/>
                     </view>
