@@ -106,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				685AD96A205DB8E20002DB54 /* Concert Assistant */,
-				68B8733E205E50DB007A860E /* Library */,
-				68B8733F205E50EB007A860E /* Storyboards */,
 				685AD97F205DB8E20002DB54 /* Concert AssistantTests */,
 				685AD98A205DB8E20002DB54 /* Concert AssistantUITests */,
 				685AD969205DB8E20002DB54 /* Products */,
@@ -129,6 +127,8 @@
 		685AD96A205DB8E20002DB54 /* Concert Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				68B8733F205E50EB007A860E /* Storyboards */,
+				68B8733E205E50DB007A860E /* Library */,
 				68B8733A205E5096007A860E /* Models */,
 				68B87335205E4BB1007A860E /* Views */,
 				68B87336205E4C0D007A860E /* Controllers */,
