@@ -106,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				685AD96A205DB8E20002DB54 /* Concert Assistant */,
+				68B8733E205E50DB007A860E /* Library */,
+				68B8733F205E50EB007A860E /* Storyboards */,
 				685AD97F205DB8E20002DB54 /* Concert AssistantTests */,
 				685AD98A205DB8E20002DB54 /* Concert AssistantUITests */,
 				685AD969205DB8E20002DB54 /* Products */,
@@ -127,11 +129,14 @@
 		685AD96A205DB8E20002DB54 /* Concert Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				68B8733A205E5096007A860E /* Models */,
+				68B87335205E4BB1007A860E /* Views */,
+				68B87336205E4C0D007A860E /* Controllers */,
+				68B87341205E512D007A860E /* Resources */,
+				68B87340205E5127007A860E /* Application */,
 				685AD96B205DB8E20002DB54 /* AppDelegate.swift */,
 				685AD96D205DB8E20002DB54 /* ViewController.swift */,
-				685AD96F205DB8E20002DB54 /* Main.storyboard */,
 				685AD972205DB8E20002DB54 /* Assets.xcassets */,
-				685AD974205DB8E20002DB54 /* LaunchScreen.storyboard */,
 				685AD977205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert Assistant";
@@ -153,6 +158,145 @@
 				685AD98D205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert AssistantUITests";
+			sourceTree = "<group>";
+		};
+		68B87335205E4BB1007A860E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68B8733D205E50C8007A860E /* Event author */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68B87336205E4C0D007A860E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68B87339205E506C007A860E /* Event */,
+				68B87338205E506A007A860E /* Map */,
+				68B87337205E505F007A860E /* User profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		68B87337205E505F007A860E /* User profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "User profile";
+			sourceTree = "<group>";
+		};
+		68B87338205E506A007A860E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		68B87339205E506C007A860E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		68B8733A205E5096007A860E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68B8733C205E50B4007A860E /* User */,
+				68B8733B205E50A6007A860E /* Event */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68B8733B205E50A6007A860E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		68B8733C205E50B4007A860E /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		68B8733D205E50C8007A860E /* Event author */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Event author";
+			sourceTree = "<group>";
+		};
+		68B8733E205E50DB007A860E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				68B87342205E5189007A860E /* Base classes */,
+				68B87346205E51FE007A860E /* Helpers */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		68B8733F205E50EB007A860E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				685AD96F205DB8E20002DB54 /* Main.storyboard */,
+				685AD974205DB8E20002DB54 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		68B87340205E5127007A860E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		68B87341205E512D007A860E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68B87342205E5189007A860E /* Base classes */ = {
+			isa = PBXGroup;
+			children = (
+				68B87345205E51CF007A860E /* View controller */,
+				68B87344205E51A8007A860E /* Navigation controller */,
+				68B87343205E519C007A860E /* Model */,
+			);
+			path = "Base classes";
+			sourceTree = "<group>";
+		};
+		68B87343205E519C007A860E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68B87344205E51A8007A860E /* Navigation controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Navigation controller";
+			sourceTree = "<group>";
+		};
+		68B87345205E51CF007A860E /* View controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View controller";
+			sourceTree = "<group>";
+		};
+		68B87346205E51FE007A860E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		F03111A89A5776BEB9E24EA4 /* Frameworks */ = {
