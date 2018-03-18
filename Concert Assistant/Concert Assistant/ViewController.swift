@@ -10,12 +10,8 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class Art: UIViewController {
-    
-    let url = "https://httpbin.org/get"
-    
-    @IBAction func buttonGet(_ sender: Any) {
-        print("chetko")
+class ViewController: UIViewController {
+    func buttonGet(url : String) {
         Alamofire.request(url).responseJSON { response in
             print("Request: \(String(describing: response.request))")  // original url request
             print("Response: \(String(describing: response.response))") // http url response
@@ -27,7 +23,7 @@ class Art: UIViewController {
             
             if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
                 print("Data: \(utf8Text)")
-                print("udcd")// original server data as UTF8 string
+                // original server data as UTF8 string
             }
         }
     }
