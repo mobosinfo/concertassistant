@@ -50,6 +50,14 @@
                                     <navigationItem title="Title" id="bKQ-ee-SlG"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EX-pY-GeN">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonGet:" destination="2TZ-Jn-hZb" eventType="touchUpInside" id="xlR-Hh-l0r"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FMR-IT-x7K"/>
@@ -57,8 +65,9 @@
                     <tabBarItem key="tabBarItem" title="Item 1" id="3Uq-II-Y1L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1V-94-Vdl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="2TZ-Jn-hZb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1785" y="-219"/>
+            <point key="canvasLocation" x="1784.8" y="-219.04047976011995"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Spj-rd-fMy">
