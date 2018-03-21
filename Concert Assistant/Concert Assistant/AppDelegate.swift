@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        print("efde")
+        let testViewController = ViewController()
+        testViewController.buttonGet(url : "https://kudago.com/public-api/v1.2/event-categories/?lang=ru")
+        
         // Override point for customization after application launch.
         return true
     }
