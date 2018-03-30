@@ -15,9 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let testViewController = FirstViewController()
-        let url = "https://kudago.com/public-api/v1.4/places/?lang=&fields=&expand=&order_by=&text_format=&ids=&location=&has_showings=&showing_since=1444385206&showing_until=1444385206&categories=airports,-anticafe&lon=&lat=&radius="
-        testViewController.sendAutomaticRequest(url: url)
         // Override point for customization after application launch.
         return true
     }
