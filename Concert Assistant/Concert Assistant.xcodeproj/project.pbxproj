@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		048099F937148B065D6122EF /* Pods_Concert_AssistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AC7CA5EECB8B514B6572A9 /* Pods_Concert_AssistantTests.framework */; };
+		0B6FF684206B8ADE00584DD5 /* MainUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FF683206B8ADE00584DD5 /* MainUITabBarController.swift */; };
+		0BA30C43206C10C90063E22F /* ConcertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA30C42206C10C90063E22F /* ConcertViewController.swift */; };
+		0BF5AB6C2062C42B007443F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5AB6B2062C42B007443F6 /* SecondViewController.swift */; };
 		685AD96C205DB8E20002DB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD96B205DB8E20002DB54 /* AppDelegate.swift */; };
-		685AD96E205DB8E20002DB54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD96D205DB8E20002DB54 /* ViewController.swift */; };
+		685AD96E205DB8E20002DB54 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685AD96D205DB8E20002DB54 /* FirstViewController.swift */; };
 		685AD971205DB8E20002DB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685AD96F205DB8E20002DB54 /* Main.storyboard */; };
 		685AD973205DB8E20002DB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685AD972205DB8E20002DB54 /* Assets.xcassets */; };
 		685AD976205DB8E20002DB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685AD974205DB8E20002DB54 /* LaunchScreen.storyboard */; };
@@ -37,13 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6FF683206B8ADE00584DD5 /* MainUITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUITabBarController.swift; sourceTree = "<group>"; };
+		0BA30C42206C10C90063E22F /* ConcertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConcertViewController.swift; path = Application/ConcertViewController.swift; sourceTree = "<group>"; };
+		0BF5AB6B2062C42B007443F6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2422125AAFB8454983517B13 /* Pods_Concert_Assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Concert_Assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3615C0BC555FAB4E0B4CC91A /* Pods_Concert_AssistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Concert_AssistantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8FAC216A14FC22D216E0D3 /* Pods-Concert AssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Concert AssistantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Concert AssistantTests/Pods-Concert AssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6266B988141D5545EAC0F4D2 /* Pods-Concert AssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Concert AssistantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Concert AssistantUITests/Pods-Concert AssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		685AD968205DB8E20002DB54 /* Concert Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concert Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		685AD96B205DB8E20002DB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		685AD96D205DB8E20002DB54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		685AD96D205DB8E20002DB54 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		685AD970205DB8E20002DB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		685AD972205DB8E20002DB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685AD975205DB8E20002DB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,14 +134,13 @@
 			isa = PBXGroup;
 			children = (
 				68B8733F205E50EB007A860E /* Storyboards */,
-				68B8733E205E50DB007A860E /* Library */,
-				68B8733A205E5096007A860E /* Models */,
-				68B87335205E4BB1007A860E /* Views */,
-				68B87336205E4C0D007A860E /* Controllers */,
 				68B87341205E512D007A860E /* Resources */,
 				68B87340205E5127007A860E /* Application */,
 				685AD96B205DB8E20002DB54 /* AppDelegate.swift */,
-				685AD96D205DB8E20002DB54 /* ViewController.swift */,
+				685AD96D205DB8E20002DB54 /* FirstViewController.swift */,
+				0BA30C42206C10C90063E22F /* ConcertViewController.swift */,
+				0BF5AB6B2062C42B007443F6 /* SecondViewController.swift */,
+				0B6FF683206B8ADE00584DD5 /* MainUITabBarController.swift */,
 				685AD977205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert Assistant";
@@ -157,84 +162,6 @@
 				685AD98D205DB8E20002DB54 /* Info.plist */,
 			);
 			path = "Concert AssistantUITests";
-			sourceTree = "<group>";
-		};
-		68B87335205E4BB1007A860E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				68B8733D205E50C8007A860E /* Event author */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		68B87336205E4C0D007A860E /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				68B87339205E506C007A860E /* Event */,
-				68B87338205E506A007A860E /* Map */,
-				68B87337205E505F007A860E /* User profile */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		68B87337205E505F007A860E /* User profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "User profile";
-			sourceTree = "<group>";
-		};
-		68B87338205E506A007A860E /* Map */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Map;
-			sourceTree = "<group>";
-		};
-		68B87339205E506C007A860E /* Event */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Event;
-			sourceTree = "<group>";
-		};
-		68B8733A205E5096007A860E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				68B8733C205E50B4007A860E /* User */,
-				68B8733B205E50A6007A860E /* Event */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		68B8733B205E50A6007A860E /* Event */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Event;
-			sourceTree = "<group>";
-		};
-		68B8733C205E50B4007A860E /* User */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		68B8733D205E50C8007A860E /* Event author */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Event author";
-			sourceTree = "<group>";
-		};
-		68B8733E205E50DB007A860E /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				68B87342205E5189007A860E /* Base classes */,
-				68B87346205E51FE007A860E /* Helpers */,
-			);
-			path = Library;
 			sourceTree = "<group>";
 		};
 		68B8733F205E50EB007A860E /* Storyboards */ = {
@@ -259,44 +186,6 @@
 				685AD972205DB8E20002DB54 /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		68B87342205E5189007A860E /* Base classes */ = {
-			isa = PBXGroup;
-			children = (
-				68B87345205E51CF007A860E /* View controller */,
-				68B87344205E51A8007A860E /* Navigation controller */,
-				68B87343205E519C007A860E /* Model */,
-			);
-			path = "Base classes";
-			sourceTree = "<group>";
-		};
-		68B87343205E519C007A860E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		68B87344205E51A8007A860E /* Navigation controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Navigation controller";
-			sourceTree = "<group>";
-		};
-		68B87345205E51CF007A860E /* View controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View controller";
-			sourceTree = "<group>";
-		};
-		68B87346205E51FE007A860E /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		F03111A89A5776BEB9E24EA4 /* Frameworks */ = {
@@ -604,8 +493,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685AD96E205DB8E20002DB54 /* ViewController.swift in Sources */,
+				0BA30C43206C10C90063E22F /* ConcertViewController.swift in Sources */,
+				0BF5AB6C2062C42B007443F6 /* SecondViewController.swift in Sources */,
+				685AD96E205DB8E20002DB54 /* FirstViewController.swift in Sources */,
 				685AD96C205DB8E20002DB54 /* AppDelegate.swift in Sources */,
+				0B6FF684206B8ADE00584DD5 /* MainUITabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
