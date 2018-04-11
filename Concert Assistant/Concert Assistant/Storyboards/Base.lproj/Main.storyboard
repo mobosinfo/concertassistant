@@ -59,12 +59,29 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVd-n3-44F">
+                                <rect key="frame" x="249" y="74" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="GetInfo"/>
+                                <connections>
+                                    <action selector="getInfo:" destination="Yic-R8-hqt" eventType="touchUpInside" id="Tvp-Iu-sZg"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MZE-hK-lmf">
+                                <rect key="frame" x="16" y="75" width="197" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Moscow"/>
+                                    <segment title="St.Petersburg"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FMR-IT-x7K"/>
                     </view>
                     <navigationItem key="navigationItem" id="7iN-pH-4FI"/>
                     <connections>
+                        <outlet property="cityChoose" destination="MZE-hK-lmf" id="AGl-CP-htm"/>
                         <outlet property="tableView" destination="tD5-ed-CGo" id="QEI-3d-GyK"/>
                         <segue destination="FOZ-lc-mQW" kind="show" identifier="showDetails" id="OT5-EN-pmJ"/>
                     </connections>

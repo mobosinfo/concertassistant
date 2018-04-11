@@ -11,7 +11,21 @@ import Alamofire
 import SwiftyJSON
 
 class FirstViewController: UIViewController{
+    @IBOutlet weak var cityChoose: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
+
+    @IBAction func getInfo(_ sender: Any) {
+        var city = "msk"
+        switch cityChoose.selectedSegmentIndex {
+        case 0 :
+            city = "msk"
+        case 1 :
+            city = "spb"
+        default :
+            city = "msk"
+        }
+        print("Будем искать концерты в городе \(city)")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
