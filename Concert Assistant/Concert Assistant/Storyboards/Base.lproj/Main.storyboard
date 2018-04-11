@@ -79,7 +79,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FMR-IT-x7K"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7iN-pH-4FI"/>
+                    <navigationItem key="navigationItem" title="Артисты" id="kwP-xq-cM9"/>
                     <connections>
                         <outlet property="cityChoose" destination="MZE-hK-lmf" id="AGl-CP-htm"/>
                         <outlet property="tableView" destination="tD5-ed-CGo" id="QEI-3d-GyK"/>
