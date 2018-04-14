@@ -7,14 +7,46 @@
 //
 
 import UIKit
-
+import StoreKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    
+
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        SKCloudServiceController.requestAuthorization { status in
+            if status == .authorized {
+                // Зеленый свет
+                let controller = SKCloudServiceController()
+                controller.requestCapabilities { (capabilities, error) in
+                    if capabilities.rawValue >= SKCloudServiceCapability.addToCloudMusicLibrary.rawValue {
+                        // можем всё!
+                        controller.requestStorefrontIdentifier { (identifier, error) in
+                            if error == nil {
+                                // Тут мы получаем инфу, в какой стране находится пользователь
+                            }
+                        }
+                    }
+                    else if capabilities == SKCloudServiceCapability.musicCatalogPlayback {
+                        // можем только играть музыку
+                        // видимо, пользователь выключил медиатеку iCloud
+                    }
+                    else {
+                        // подписки нет
+                    }
+                }
+            }
+            else if status == .denied {
+                //Отклонен
+            }
+            else if status == .restricted {
+                //Запрещен
+            }
+            else
+            {
+            }
+        }
         // Override point for customization after application launch.
         return true
     }
@@ -30,6 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func applicationWillEnterForeground(_ application: UIApplication) {
+        
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     }
     
@@ -40,6 +73,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    
     
 }
